@@ -7,12 +7,13 @@ import { addToShoppingCart } from "./shoppingCart.js";
 
 const storeItemTemplate = document.querySelector("#store-item-template");
 const storeItemContainer = document.querySelector("[data-store-container]");
-const imageUrl = "https://github.com/e-d-i/shoppingCart/blob/main/src/img";
+const imageUrl =
+  "https://github.com/websiteDesignn/shoppingCart/blob/main/src/img";
 
 export function setupShop() {
-  if(storeItemContainer == null) return;
+  if (storeItemContainer == null) return;
 
-  addGlobalEventListener("click", "[data-add-to-shoppingCart-button]", e => {
+  addGlobalEventListener("click", "[data-add-to-shoppingCart-button]", (e) => {
     const id = e.target.closest("[data-store-item]").dataset.itemId;
     addToShoppingCart(parseInt(id));
   });

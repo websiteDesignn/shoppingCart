@@ -7,7 +7,7 @@ setupShop();
 setupShoppingCart();
 
 const purchaseBtn = document.querySelector("[data-purchase-button]");
-if(purchaseBtn) {
+if (purchaseBtn) {
   purchaseBtn.addEventListener("click", purchaseClicked);
 }
 

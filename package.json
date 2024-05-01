@@ -8,7 +8,7 @@
     "build": "parcel build index.html shop.html contact.html",
     "build-css": "tailwindcss build src/styles.css -o dist/styles.css"
   },
-  "homepage": "https://e-d-i.github.io/shoppingCart/",
+  "homepage": "https://github.com/websiteDesignn/shoppingCart/",
   "keywords": [],
   "author": "e-d-i",
   "license": "ISC",
