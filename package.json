@@ -1,0 +1,24 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "A simple shopping cart using HTML, CSS / Tailwind CSS, JavaScript & Parcel",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html shop.html contact.html",
+    "build": "parcel build index.html shop.html contact.html",
+    "build-css": "tailwindcss build src/styles.css -o dist/styles.css"
+  },
+  "homepage": "https://e-d-i.github.io/shoppingCart/",
+  "keywords": [],
+  "author": "e-d-i",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16"
+  },
+  "dependencies": {
+    "postcss-modules": "^4.2.2"
+  }
+}

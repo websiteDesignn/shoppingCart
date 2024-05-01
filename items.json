@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Food 1",
+    "category": "🌶️",
+    "priceCents": 2800,
+    "imageRamen": "ramen1.png?raw=true"
+  },
+  {
+    "id": 2,
+    "name": "Food 2",
+    "category": "🌶️🌶️",
+    "priceCents": 2500,
+    "imageRamen": "ramen2.png?raw=true"
+  },
+  {
+    "id": 3,
+    "name": "Food 3",
+    "category": "🌶️🌶️🌶️",
+    "priceCents": 3500,
+    "imageRamen": "ramen3.png?raw=true"
+  },
+  {
+    "id": 4,
+    "name": "Food 4",
+    "category": "🔥",
+    "priceCents": 3500,
+    "imageRamen": "ramen4.png?raw=true"
+  },
+  {
+    "id": 5,
+    "name": "Food 5",
+    "category": "",
+    "priceCents": 2200,
+    "imageRamen": "ramen5.png?raw=true"
+  },
+  {
+    "id": 6,
+    "name": "Food 6",
+    "category": "",
+    "priceCents": 2000,
+    "imageRamen": "ramen6.png?raw=true"
+  },
+  {
+    "id": 7,
+    "name": "Food 7",
+    "category": "",
+    "priceCents": 1500,
+    "imageRamen": "ramen7.png?raw=true"
+  },
+  {
+    "id": 8,
+    "name": "Food 8",
+    "category": "",
+    "priceCents": 1200,
+    "imageRamen": "ramen8.png?raw=true"
+  }
+]
